@@ -24,7 +24,7 @@ __pycache__/
 /src/ctf_gameserver/web/dev-db.sqlite3
 /src/ctf_gameserver/web/uploads/
 /src/ctf_gameserver/web/static/ext/
-/src/ctf_gameserver/web/registration/countries.csv
+#/src/ctf_gameserver/web/registration/countries.csv # we need it though!
 # We don't actually migrate anything and generate migrations files dynamically
 /src/ctf_gameserver/web/*/migrations/__init__.py
 /src/ctf_gameserver/web/*/migrations/0001_initial.py
