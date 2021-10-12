@@ -110,8 +110,8 @@ urlpatterns = [
     # Multiple seperate URL patterns have to be used to work around
     # https://code.djangoproject.com/ticket/9176
     url(r'^$',
-        flatpages_views.flatpage,
-        name='home_flatpage'
+        registration_views.register,
+        name='register'
     ),
     url(r'^(?P<slug>[\w-]+)/$',
         flatpages_views.flatpage,
